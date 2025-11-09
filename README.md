@@ -40,7 +40,7 @@ YOUR_ADMIN_IP= A.B.C.D/32
    * `CloudWatchAgentServerPolicy`
 3. (Optional) Create **backup role** with write-only access to an S3 backup bucket.
 4. Turn on **CloudTrail**, **Config**, **GuardDuty**, **Security Hub**.
-
+- CloudTrail detections + on-demand EBS malware scans, alerts wired to SNS
 ---
 
 ## 2) Networking & Security Groups
